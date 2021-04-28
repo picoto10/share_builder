@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Mi página</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
+    <script src="function.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="h-menu">
+          <li><a href="#" onclick="mostrar('todas');">Todas</a></li>
+          <li><a class="dropdown-toggle" href="#">AutoGestión</a>
+            <ul class="d-menu" data-role="dropdown">
+              <li><a href="#" onclick="mostrar('arte');">Autocontrol</a>
+              <li><a href="#" onclick="mostrar('arte');">Perseverancia</a>
+              <li><a href="#" onclick="mostrar('arte');">Determinación</a>
+              <li><a href="#" onclick="mostrar('arte');">Paciencia</a>
+              <li><a href="#" onclick="mostrar('valentia');">Valentía</a>
+              <li><a href="#" onclick="mostrar('arte');">Resiliencia</a>
+              <li><a href="#" onclick="mostrar('arte');">Atención Plena</a>
+            </ul>
+          </li>
+          <li><a href="#" onclick="mostrar('juego');">Conciencia de sí mismo</a></li>
+          <li><a href="#" onclick="mostrar('social');">Conciencia social</a></li>
+          <li><a href="#" onclick="mostrar('social');">Habilidades para relacionarse</a></li>
+          <li><a href="#" onclick="mostrar('social');">Toma de decisiones</a></li>
+        </ul>
+      </nav>
+    </header>
+      <div class="container">
+        <div class="grid">
+          <div id="container" class="row">
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdn.metroui.org.ua/v4.3.2/js/metro.min.js"></script>
+  </body>
+</html>
