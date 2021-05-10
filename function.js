@@ -2,6 +2,7 @@ var estrategias = [
   estrategia1 = {
     nombre: "Explorando el arte",
     url: "https://estrategiasfemsa.000webhostapp.com",
+    integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","arte","autogestion"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
@@ -10,6 +11,7 @@ var estrategias = [
   estrategia2 = {
     nombre: "Explorando el juego",
     url: "https:www.google.com",
+    integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","juego","comunicacion"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
@@ -18,6 +20,7 @@ var estrategias = [
   estrategia3 = {
     nombre: "Explorando el juego",
     url: "https:www.google.com",
+    integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","juego","comunicacion"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
@@ -26,6 +29,7 @@ var estrategias = [
   estrategia4 = {
     nombre: "Explorando el juego",
     url: "https:www.google.com",
+    integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","juego","comunicacion","valentia"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
@@ -34,6 +38,7 @@ var estrategias = [
   estrategia5 = {
     nombre: "Explorando el juego",
     url: "https:www.google.com",
+    integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","juego","comunicacion"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
@@ -42,6 +47,7 @@ var estrategias = [
   estrategia6 = {
     nombre: "Explorando el juego",
     url: "https:www.google.com",
+    integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","juego","comunicacion","valentia"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
@@ -57,20 +63,15 @@ function mostrar(tag){
     if (estrategias[i].tag.indexOf(tag) != -1) {
       count++;
       contenedor.innerHTML += `
-      <div class="cell-3">
-      <div class="card image-header m-2">
-      <div class="card-header fg-white" style="background-image: url(http://lorempixel.com/1000/600/)">
+      <div class="card">
+      <div class="card-header">
         `+estrategias[i].nombre+`
       </div>
-      <div class="card-content p-2">
-      <p class="fg-gray">Posted on January 21, 2015</p>
-      Quisque eget vestibulum nulla. Quisque quis dui quis ex
-      ultricies efficitur vitae non felis. Phasellus quis nibh
-      hendrerit...
+      <div class="card-content">
+      Una estrategia hecha por: <br>`+estrategias[i].integrantes+`
       </div>
       <div class="card-footer">
-      <button class="button secondary" onclick = "abrirEstrategia('`+estrategias[i].url+`')">Ver estrategia</button>
-      </div>
+      <button class="card-button" onclick = "abrirEstrategia('`+estrategias[i].url+`')">Ver estrategia</button>
       </div>
       </div>
       `;
@@ -86,4 +87,8 @@ function mostrar(tag){
 
 function abrirEstrategia(url){
   window.open(url,"_blank");
+}
+
+window.onload = function(){
+  mostrar('juego');
 }
