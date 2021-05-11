@@ -27,8 +27,8 @@ var estrategias = [
     }
   },
   estrategia4 = {
-    nombre: "Explorando el juego",
-    url: "https:www.google.com",
+    nombre: "¡¡Conectémonos Ya!!",
+    url: "https://sites.google.com/view/femsaestrategia6/inicio",
     integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","juego","comunicacion","valentia"],
     cargar: function(){
@@ -36,8 +36,8 @@ var estrategias = [
     }
   },
   estrategia5 = {
-    nombre: "Explorando el juego",
-    url: "https:www.google.com",
+    nombre: "El Carrusel De Las Emociones Parentales",
+    url: "https://sites.google.com/view/femsaestrategia7/inicio",
     integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","juego","comunicacion"],
     cargar: function(){
@@ -45,8 +45,8 @@ var estrategias = [
     }
   },
   estrategia6 = {
-    nombre: "Explorando el juego",
-    url: "https:www.google.com",
+    nombre: "Vivamos Las Emociones Desde El Arte",
+    url: "https://sites.google.com/view/femsaestrategia8/inicio",
     integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","juego","comunicacion","valentia"],
     cargar: function(){
