@@ -34,7 +34,7 @@
 }
 
 #card-button{
-  display: inline-block !important;
+  display: block !important;
   -webkit-box-sizing: content-box !important;
   -moz-box-sizing: content-box !important;
   box-sizing: content-box !important;
