@@ -11,29 +11,29 @@
   row-gap: 30px;
 }
 
-.card{
+#card{
   background-color: #eaeaea;
   border: 1px solid #C5D0E3;
   padding: 5%;
 }
 
-.card-header{
+#card-header{
   font-family: 'League Gothic', arial;
   font-size: 1.5em;
   margin-bottom: 10px;
 }
 
-.card-content{
+#card-content{
   font-size: 0.8em;
   margin-bottom: 3%;
 }
 
-.card-footer{
+#card-footer{
   text-align: center;
   background: #8BD5C8;
 }
 
-.card-button{
+#card-button{
   display: inline-block;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
