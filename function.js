@@ -63,15 +63,15 @@ function mostrar(tag){
     if (estrategias[i].tag.indexOf(tag) != -1) {
       count++;
       contenedor.innerHTML += `
-      <div class="card">
-      <div class="card-header">
+      <div id="card" class="card">
+      <div id="card-header" class="card-header">
         `+estrategias[i].nombre+`
       </div>
-      <div class="card-content">
+      <div id="card-content" class="card-content">
       Una estrategia hecha por: <br>`+estrategias[i].integrantes+`
       </div>
-      <div class="card-footer">
-      <button class="card-button" onclick = "abrirEstrategia('`+estrategias[i].url+`')">Ver estrategia</button>
+      <div id="card-footer" class="card-footer">
+      <button id="card-button" class="card-button" onclick = "abrirEstrategia('`+estrategias[i].url+`')">Ver estrategia</button>
       </div>
       </div>
       `;
