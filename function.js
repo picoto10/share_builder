@@ -1,8 +1,7 @@
 var estrategias = [
   estrategia1 = {
     nombre: "Comunicación Asertiva: Fortaleciendo Los Lazos De Comunicación Entre La Escuela Y Las Familias",
-    url: "https://sites.google.com/view/femsaestrategia3/inicio
-",
+    url: "https://sites.google.com/view/femsaestrategia3/inicio",
     integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","arte","autogestion"],
     cargar: function(){
