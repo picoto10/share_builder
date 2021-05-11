@@ -24,7 +24,13 @@
 }
 
 .card-content{
+  font-size: 0.8em;
   margin-bottom: 3%;
+}
+
+.card-footer{
+  text-align: center;
+  background: #8BD5C8;
 }
 
 .card-button{
