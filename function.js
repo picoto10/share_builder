@@ -1,7 +1,7 @@
 var estrategias = [
   estrategia1 = {
-    nombre: "Explorando el arte",
-    url: "https://estrategiasfemsa.000webhostapp.com",
+    nombre: "Construyendo juntos nuestras normas en casa",
+    url: "https://sites.google.com/view/femsaestrategia28/inicio",
     integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","arte","autogestion"],
     cargar: function(){
@@ -9,7 +9,7 @@ var estrategias = [
     }
   },
   estrategia2 = {
-    nombre: "Explorando el juego",
+    nombre: "Leyendo y explorando, voy creciendo y el mundo mejorando",
     url: "https:www.google.com",
     integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","juego","comunicacion"],
