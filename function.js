@@ -71,7 +71,7 @@ function mostrar(tag){
       Una estrategia hecha por: <br>`+estrategias[i].integrantes+`
       </div>
       <div id="card-footer" class="card-footer">
-      <button id="card-button" class="card-button" onclick = "abrirEstrategia('`+estrategias[i].url+`')">Ver estrategia</button>
+      <a heref="#" id="card-button" class="card-button" onclick = "abrirEstrategia('`+estrategias[i].url+`')">Ver estrategia</a>
       </div>
       </div>
       `;
