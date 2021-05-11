@@ -1,7 +1,8 @@
 var estrategias = [
   estrategia1 = {
-    nombre: "Construyendo juntos nuestras normas en casa",
-    url: "https://sites.google.com/view/femsaestrategia28/inicio",
+    nombre: "Comunicación Asertiva: Fortaleciendo Los Lazos De Comunicación Entre La Escuela Y Las Familias",
+    url: "https://sites.google.com/view/femsaestrategia3/inicio
+",
     integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","arte","autogestion"],
     cargar: function(){
@@ -9,8 +10,8 @@ var estrategias = [
     }
   },
   estrategia2 = {
-    nombre: "Leyendo y explorando, voy creciendo y el mundo mejorando",
-    url: "https:www.google.com",
+    nombre: "Descubriendo El Mundo En Familia",
+    url: "https://sites.google.com/view/femsaestrategia4/inicio",
     integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","juego","comunicacion"],
     cargar: function(){
@@ -18,8 +19,8 @@ var estrategias = [
     }
   },
   estrategia3 = {
-    nombre: "Explorando el juego",
-    url: "https:www.google.com",
+    nombre: "Literatiando Ando Con Mis Emociones",
+    url: "https://sites.google.com/view/femsaestrategia5/inicio",
     integrantes: "María Eugenia - Daris Mirela - Mauricio Molina",
     tag: ["todas","juego","comunicacion"],
     cargar: function(){
