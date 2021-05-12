@@ -363,88 +363,214 @@ var estrategias = [
     nombre: "DESCUBRO E IDENTIFICO MIS EMOCIONES",
     url: "https://sites.google.com/view/femsaestrategia43/inicio",
     componente: "Conciencia de sí mismo",
-    tag: ["todas","motivacion"],
+    tag: ["todas","confianza"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
   },
   estrategia42 = {
-    nombre: "ARTE COMO MEDIADOR PARA EL FORTALECIMIENTO DE LA IDENTIDAD",
-    url: "https://sites.google.com/view/elartecomomediadorenelfortalec/inicio",
-    componente: "Conciencia de sí mismo",
-    tag: ["todas","autoconocimiento"],
+    nombre: "CONOCIENDO EL DESARROLLO EMOCIONAL EN LOS NIÑOS A TRAVÉS DE ESTRATEGIAS DIDÁCTICAS TRANSFORMANDO REALIDADES POR MEDIO DE LA LITERATURA",
+    url: "https://sites.google.com/view/femsaestrategia44/inicio",
+    componente: "Conciencia social",
+    tag: ["todas","generosidad"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
   },
   estrategia43 = {
-    nombre: "MOTIVARTE MAESTRO",
-    url: "https://sites.google.com/view/femsaestrategia26/inicio",
-    componente: "Autogestión y Conciencia de sí mismo",
-    tag: ["todas","resiliencia","motivacion"],
+    nombre: "LAS EMOCIONES A TRAVÉS DEL JUEGO",
+    url: "https://sites.google.com/view/femsaestrategia45/inicio",
+    componente: "Autogestión",
+    tag: ["todas","autocontrol"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
   },
   estrategia44 = {
-    nombre: "EL JUEGO: LA MEJOR MEDIACIÓN",
-    url: "https://sites.google.com/view/femsaestrategia36/inicio",
-    componente: "Habilidades para relacionarse",
-    tag: ["todas","comunicacion"],
+    nombre: "¡MI VIDA ES UN CUENTO!",
+    url: "https://sites.google.com/view/femsaestrategia46/inicio",
+    componente: "Autogestión",
+    tag: ["todas","autocontrol"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
   },
   estrategia45 = {
-    nombre: "LA COMUNICACIÓN REFLEJO DE AMOR Y PUENTE ENTRE FAMILIA Y DOCENTE",
-    url: "https://sites.google.com/view/femsaestrategia37/inicio",
+    nombre: "JUEGO, CREO EN MÍ Y SOY CAPAZ",
+    url: "https://sites.google.com/view/femsaestrategia47/inicio",
+    componente: "Conciencia de sí mismo",
+    tag: ["todas","confianza"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia46 = {
+    nombre: "EXPLORACIÓN ACTIVA",
+    url: "https://sites.google.com/view/femsaestrategia48/inicio",
+    componente: "Toma de decisiones responsables",
+    tag: ["todas","sabiduria"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia47 = {
+    nombre: "JUGANDO APRENDEMOS A CUIDARNOS DEL CORONAVIRUS",
+    url: "https://sites.google.com/view/femsaestrategia49/inicio",
+    componente: "Autogestión",
+    tag: ["todas","resiliencia"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia48 = {
+    nombre: "FAMILIA Y ESCUELA EN UN VIAJE POR EL MUNDO DE LAS EMOCIONES",
+    url: "https://sites.google.com/view/femsaestrategia50/inicio",
+    componente: "Toma de decisiones responsables",
+    tag: ["todas","iniciativa"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia49 = {
+    nombre: "EL CARRUSEL DE EMOCIONES",
+    url: "https://sites.google.com/view/femsaestrategia52/inicio",
+    componente: "Autogestión",
+    tag: ["todas","autocontrol"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia50 = {
+    nombre: "EL AMOR  EN LA ENSEÑANZA ES LA MEJOR  HUELLA  PARA  LOS  NIÑOS",
+    url: "https://sites.google.com/view/femsaestrategia53/inicio",
+    componente: "Conciencia de sí mismo",
+    tag: ["todas","creatividad"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia51 = {
+    nombre: "SEMBRANDO Y CULTIVANDO EL BUEN TRATO",
+    url: "https://sites.google.com/view/femsaestrategia54/inicio",
+    componente: "Habilidades pra relacionarse",
+    tag: ["todas","amor","bondad"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia52 = {
+    nombre: "A TERTULIAR EN FAMILIA",
+    url: "https://sites.google.com/view/femsaestrategia55/inicio",
     componente: "Habilidades para relacionarse",
     tag: ["todas","comunicacion"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
   },
-  estrategia46 = {
-    nombre: "MANEJA TU TIEMPO, MANEJA TU SALUD",
-    url: "https://sites.google.com/view/femsaestrategia38/inicio",
+  estrategia53 = {
+    nombre: "¡JUGANDO Y JUGANDO, MIS EMOCIONES VOY ENCONTRANDO!",
+    url: "https://sites.google.com/view/femsaestrategia57/inicio",
     componente: "Autogestión",
-    tag: ["todas","autocontrol"],
+    tag: ["todas","autoconocimiento"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
   },
-  estrategia47 = {
-    nombre: "EXPRESSARTE: ME ATREVO, TE ATREVES, EXPRESÉMENOS Y CONOZCÁMONOS MEJOR",
-    url: "https://sites.google.com/view/femsaestrategia39/inicio",
-    componente: "Autogestión",
-    tag: ["todas","autocontrol","valentia"],
+  estrategia54 = {
+    nombre: "LEEMOCIÓNATE",
+    url: "https://sites.google.com/view/femsaestrategia58/inicio",
+    componente: "Conciencia de sí mismo",
+    tag: ["todas","autoconomiento","resiliencia","empatia"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
   },
-  estrategia48 = {
-    nombre: "EL JUEGO Y LA LITERATURA. ESTRATEGIAS POTENCIADORAS DE LA ESCUCHA ACTIVA",
-    url: "https://sites.google.com/view/femsaestrategia40/inicio",
+  estrategia55 = {
+    nombre: "EL TREN DE LAS EMOCIONES",
+    url: "https://sites.google.com/view/femsaestrategia59/inicio",
+    componente: "Conciencia social",
+    tag: ["todas","compasion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia56 = {
+    nombre: "EL CAMINO DE LAS EMOCIONES",
+    url: "https://sites.google.com/view/femsaestrategia60/inicio",
     componente: "Habilidades para relacionarse",
-    tag: ["todas","cooperacion","comunicacion"],
+    tag: ["todas","comunicacion","empatia"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
   },
-  estrategia49 = {
-    nombre: "UNIDOS ACTIVOS “ENTRE JUEGOS Y REFLEXIONES SE ENTIENDEN LAS EMOCIONES”",
-    url: "https://sites.google.com/view/femsaestrategia41/inicio",
+  estrategia57 = {
+    nombre: "EL JUEGO COMO ESTRATEGIA PARA LOGRAR UNA COMUNICACION ASERTIVA EN FAMILIA",
+    url: "https://sites.google.com/view/femsaestrategia61/inicio",
     componente: "Habilidades para relacionarse",
-    tag: ["todas","cooperacion"],
+    tag: ["todas","comunicacion"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
   },
-  estrategia50 = {
-    nombre: "APRENDIENDO A EXPRESAR MIS EMOCIONES",
-    url: "https://sites.google.com/view/femsaestrategia42/inicio",
-    componente: "Autogestión",
-    tag: ["todas","autocontrol"],
+  estrategia58 = {
+    nombre: "EL ARTE COMO ESTRATEGIA EDUCATIVA SOCIOEMOCIONAL EN LA FALTA DE ACOMPAÑAMIENTO DE LOS PADRES DE FAMILIA DE LOS NIÑOS DE PRIMERA INFANCIA",
+    url: "https://sites.google.com/view/femsaestrategia62/inicio",
+    componente: "Habilidades para relacionarse",
+    tag: ["todas","amor","comunicacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia59 = {
+    nombre: "EL ARTE COMO ESPEJO DEL YO: FORTALECIENDO EL AUTORRECONOCIMIENTO EN LA INFANCIA",
+    url: "https://sites.google.com/view/femsaestrategia63/inicio",
+    componente: "Toma de decisiones responsables",
+    tag: ["todas","innovacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia60 = {
+    nombre: "EL JUEGO COMO MEDIDOR PARA AFIANZAR LAS HABILIDADES SOCIOEMOCIONALES EN LOS NIÑOS Y NIÑAS DE 7 A 10 AÑOS",
+    url: "https://sites.google.com/view/femsaestrategia64/inicio",
+    componente: "Conciencia social",
+    tag: ["todas","compasion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia61 = {
+    nombre: " EL JUEGO PARA MAYOR DISFRUTE DE LA VIDA",
+    url: "https://sites.google.com/view/femsaestrategia65/inicio",
+    componente: "Habilidades para relacionarse",
+    tag: ["todas","carenciasafectivas"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia62 = {
+    nombre: "RE-CREANDO MIS VIVENCIAS",
+    url: "https://sites.google.com/view/femsaestrategia66/inicio",
+    componente: "conciencia de sí mismo",
+    tag: ["todas","autoaceptacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia63 = {
+    nombre: "COMPARTIENDO Y JUGANDO",
+    url: "https://sites.google.com/view/femsaestrategia63/inicio",
+    componente: "Habilidades para relacionarse",
+    tag: ["todas","comunicacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia64 = {
+    nombre: "RED ESCUELA – FAMILIA - CIUDAD",
+    url: "https://sites.google.com/view/femsaestrategia71/inicio",
+    componente: "Autogestión, Cociencia de si mismo, Conciencia Social, Habilidades para relacionarse y Toma de decisiones responsables",
+    tag: ["todas","confianza","liderazgo"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
@@ -481,7 +607,7 @@ function construir(estrategia){
   contenedor.innerHTML += `
   <div id="card" class="card">
   <div id="card-header" class="card-header">
-    `+estrategia.nombre+`
+    `+acortar(estrategia.nombre)+`
   </div>
   <div id="card-content" class="card-content">
   Componentes<br>`+estrategia.componente+`
@@ -504,6 +630,10 @@ function aleatorias(){
     }
   }
   return arreglo;
+}
+
+function acortar(palabra){
+  return palabra.substring(0,50)+"...";
 }
 
 function abrirEstrategia(url){
