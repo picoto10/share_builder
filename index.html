@@ -3,39 +3,37 @@
   <head>
     <title>Mi página</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4/css/metro-all.min.css">
-    <script src="function.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+
   </head>
   <body>
     <header>
       <nav>
-        <ul class="h-menu">
+        <ul class="">
           <li><a href="#" onclick="mostrar('todas');">Todas</a></li>
-          <li><a class="dropdown-toggle" href="#">AutoGestión</a>
-            <ul class="d-menu" data-role="dropdown">
-              <li><a href="#" onclick="mostrar('arte');">Autocontrol</a>
-              <li><a href="#" onclick="mostrar('arte');">Perseverancia</a>
-              <li><a href="#" onclick="mostrar('arte');">Determinación</a>
-              <li><a href="#" onclick="mostrar('arte');">Paciencia</a>
+          <li><a class="" href="#">AutoGestión</a>
+            <ul class="">
+              <li><a href="#" onclick="mostrar('autocontrol');">Autocontrol</a>
+              <li><a href="#" onclick="mostrar('perseverancia');">Perseverancia</a>
+              <li><a href="#" onclick="mostrar('determinacion');">Determinación</a>
+              <li><a href="#" onclick="mostrar('paciencia');">Paciencia</a>
               <li><a href="#" onclick="mostrar('valentia');">Valentía</a>
-              <li><a href="#" onclick="mostrar('arte');">Resiliencia</a>
-              <li><a href="#" onclick="mostrar('arte');">Atención Plena</a>
+              <li><a href="#" onclick="mostrar('resiliencia');">Resiliencia</a>
+              <li><a href="#" onclick="mostrar('atencionplena');">Atención Plena</a>
             </ul>
           </li>
-          <li><a href="#" onclick="mostrar('juego');">Conciencia de sí mismo</a></li>
-          <li><a href="#" onclick="mostrar('social');">Conciencia social</a></li>
-          <li><a href="#" onclick="mostrar('social');">Habilidades para relacionarse</a></li>
+          <li><a href="#" onclick="mostrar('concienciadesimismo');">Conciencia de sí mismo</a></li>
+          <li><a href="#" onclick="mostrar('concienciassocial');">Conciencia social</a></li>
+          <li><a href="#" onclick="mostrar('habilidad');">Habilidades para relacionarse</a></li>
           <li><a href="#" onclick="mostrar('social');">Toma de decisiones</a></li>
         </ul>
       </nav>
     </header>
-      <div class="container">
-        <div class="grid">
-          <div id="container" class="row">
-          </div>
-        </div>
-      </div>
+    <div class="caja">
+      <div id="container" class="contenedor">
 
-      <script src="https://cdn.metroui.org.ua/v4.3.2/js/metro.min.js"></script>
+      </div>
+    </div>
+    <script src="function.js"></script>
   </body>
 </html>
