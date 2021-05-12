@@ -358,6 +358,96 @@ var estrategias = [
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
+  },
+  estrategia41 = {
+    nombre: "DESCUBRO E IDENTIFICO MIS EMOCIONES",
+    url: "https://sites.google.com/view/femsaestrategia43/inicio",
+    componente: "Conciencia de sí mismo",
+    tag: ["todas","motivacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia42 = {
+    nombre: "ARTE COMO MEDIADOR PARA EL FORTALECIMIENTO DE LA IDENTIDAD",
+    url: "https://sites.google.com/view/elartecomomediadorenelfortalec/inicio",
+    componente: "Conciencia de sí mismo",
+    tag: ["todas","autoconocimiento"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia43 = {
+    nombre: "MOTIVARTE MAESTRO",
+    url: "https://sites.google.com/view/femsaestrategia26/inicio",
+    componente: "Autogestión y Conciencia de sí mismo",
+    tag: ["todas","resiliencia","motivacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia44 = {
+    nombre: "EL JUEGO: LA MEJOR MEDIACIÓN",
+    url: "https://sites.google.com/view/femsaestrategia36/inicio",
+    componente: "Habilidades para relacionarse",
+    tag: ["todas","comunicacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia45 = {
+    nombre: "LA COMUNICACIÓN REFLEJO DE AMOR Y PUENTE ENTRE FAMILIA Y DOCENTE",
+    url: "https://sites.google.com/view/femsaestrategia37/inicio",
+    componente: "Habilidades para relacionarse",
+    tag: ["todas","comunicacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia46 = {
+    nombre: "MANEJA TU TIEMPO, MANEJA TU SALUD",
+    url: "https://sites.google.com/view/femsaestrategia38/inicio",
+    componente: "Autogestión",
+    tag: ["todas","autocontrol"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia47 = {
+    nombre: "EXPRESSARTE: ME ATREVO, TE ATREVES, EXPRESÉMENOS Y CONOZCÁMONOS MEJOR",
+    url: "https://sites.google.com/view/femsaestrategia39/inicio",
+    componente: "Autogestión",
+    tag: ["todas","autocontrol","valentia"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia48 = {
+    nombre: "EL JUEGO Y LA LITERATURA. ESTRATEGIAS POTENCIADORAS DE LA ESCUCHA ACTIVA",
+    url: "https://sites.google.com/view/femsaestrategia40/inicio",
+    componente: "Habilidades para relacionarse",
+    tag: ["todas","cooperacion","comunicacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia49 = {
+    nombre: "UNIDOS ACTIVOS “ENTRE JUEGOS Y REFLEXIONES SE ENTIENDEN LAS EMOCIONES”",
+    url: "https://sites.google.com/view/femsaestrategia41/inicio",
+    componente: "Habilidades para relacionarse",
+    tag: ["todas","cooperacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia50 = {
+    nombre: "APRENDIENDO A EXPRESAR MIS EMOCIONES",
+    url: "https://sites.google.com/view/femsaestrategia42/inicio",
+    componente: "Autogestión",
+    tag: ["todas","autocontrol"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
   }
 ];
 
