@@ -715,7 +715,7 @@ function acortar(palabra){
   if(palabra.length > 50){
     return palabra.substring(0,50)+"...";
   }else{
-    return palabra.substring(0,50)+"<br>";
+    return palabra.substring(0,50)+"<br><br>";
   }
 }
 
