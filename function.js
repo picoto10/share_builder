@@ -723,7 +723,7 @@ function codigos(componente){
 }
 
 function acortar(palabra){
-  if(palabra.length > 34){
+  if(palabra.length >= 32){
     return palabra.substring(0,45)+"...";
   }else{
     return palabra+'<br>&nbsp;';
