@@ -687,7 +687,7 @@ function aleatorias(){
   var arreglo = new Array(9);
   var count = 0;
   while(count < arreglo.length){
-    const random = Math.floor(Math.random()*39);
+    const random = Math.floor(Math.random()*63);
     if(arreglo.indexOf(random) == -1){
       arreglo[count] = random;
       count++;
@@ -713,9 +713,9 @@ function codigos(componente){
 
 function acortar(palabra){
   if(palabra.length > 50){
-    return palabra.substring(0,50)+"...";
+    return palabra.substring(0,40)+"...";
   }else{
-    return palabra.substring(0,50)+"<br><br>";
+    return palabra+"<br><br>";
   }
 }
 
