@@ -724,14 +724,9 @@ function codigos(componente){
 
 function acortar(palabra){
   if(palabra.length > 40){
-    return palabra.substring(0,35)+"...";
+    return palabra.substring(0,45)+"...";
   }else{
-    var arregloCadena = new Array();
-    arregloCadena = palabra.split('');
-    for (var i = arregloCadena.length; i < 43; i++) {
-      arregloCadena.push('&nbsp;');
-    }
-    return arregloCadena.join('');
+    return palabra+'<br>&nbsp;';
   }
 }
 
