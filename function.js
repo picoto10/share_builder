@@ -516,7 +516,18 @@ var estrategias = [
     tipo: 1,
     tag: ["todas","amor"],
     cargar: function(){
-      return ("Estrategia: "+this.nombre);
+      return ("Estrategia: "+this.nombre);function acortar(palabra){
+  if(palabra.length > 40){
+    return palabra.substring(0,35)+"...";
+  }else{
+    var arregloCadena = new Array();
+    arregloCadena = palabra.split('');
+    for (var i = arregloCadena.length; i < 43; i++) {
+      arregloCadena.push('&nbsp;');
+    }
+    return arregloCadena.join('');
+  }
+}
     }
   },
   estrategia53 = {
@@ -712,10 +723,15 @@ function codigos(componente){
 }
 
 function acortar(palabra){
-  if(palabra.length > 35){
-    return palabra.substring(0,45)+"...";
+  if(palabra.length > 40){
+    return palabra.substring(0,35)+"...";
   }else{
-    return palabra+"<br><br>";
+    var arregloCadena = new Array();
+    arregloCadena = palabra.split('');
+    for (var i = arregloCadena.length; i < 43; i++) {
+      arregloCadena.push('&nbsp;');
+    }
+    return arregloCadena.join('');
   }
 }
 
