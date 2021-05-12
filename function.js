@@ -712,7 +712,11 @@ function codigos(componente){
 }
 
 function acortar(palabra){
-  return palabra.substring(0,50)+"...";
+  if(palabra.length > 50){
+    return palabra.substring(0,50)+"...";
+  }else{
+    return palabra.substring(0,50)+"<br>";
+  }
 }
 
 function abrirEstrategia(url){
