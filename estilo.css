@@ -35,6 +35,7 @@
 
 #card-button{
   display: block !important;
+  text-decoration: none !important;
   -webkit-box-sizing: content-box !important;
   -moz-box-sizing: content-box !important;
   box-sizing: content-box !important;
