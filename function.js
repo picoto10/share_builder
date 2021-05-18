@@ -304,7 +304,7 @@ var estrategias = [
     url: "https://sites.google.com/view/femsaestrategia35/inicio",
     componente: "Habilidades para relacionarse",
     tipo: 1,
-    tag: ["todas","empatia"],
+    tag: ["todas","empatia","Concienciadesimismo"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
