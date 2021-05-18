@@ -571,7 +571,7 @@ var estrategias = [
     }
   },
   estrategia57 = {
-    nombre: "EL JUEGO COMO ESTRATEGIA PARA LOGRAR UNA COMUNICACION ASERTIVA EN FAMILIA",
+    nombre: "LA MÁGICA AVENTURA DE LA COMUNICACIÓN",
     url: "https://sites.google.com/view/femsaestrategia61/inicio",
     componente: "Autogestión",
     tipo: 2,
