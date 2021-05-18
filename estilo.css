@@ -26,7 +26,6 @@
 #card-content{
   font-size: 0.8em !important;
   margin-bottom: 3% !important;
-  color: #EDB127 !important;
 }
 
 #card-footer{
@@ -59,5 +58,5 @@
 .etiqueta{
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
-  color: white;
+  color: #EDB127 !important;
 }
