@@ -459,117 +459,6 @@ var estrategias = [
       return ("Estrategia: "+this.nombre);
     }
   },
-  estrategia47 = {
-    nombre: "JUGANDO APRENDEMOS A CUIDARNOS DEL CORONAVIRUS",
-    url: "https://sites.google.com/view/femsaestrategia49/inicio",
-    componente: "Autogestión",
-    tipo: 2,
-    tag: ["todas","atencionplena"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia48 = {
-    nombre: "FAMILIA Y ESCUELA EN UN VIAJE POR EL MUNDO DE LAS EMOCIONES",
-    url: "https://sites.google.com/view/femsaestrategia50/inicio",
-    componente: "Habilidades para relacionarse",
-    tipo: 1,
-    tag: ["todas","cooperacion"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia49 = {
-    nombre: "EL CARRUSEL DE EMOCIONES",
-    url: "https://sites.google.com/view/femsaestrategia52/inicio",
-    componente: "Habilidades para relacionarse",
-    tipo: 1,
-    tag: ["todas","empatia"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia50 = {
-    nombre: "EL AMOR  EN LA ENSEÑANZA ES LA MEJOR  HUELLA  PARA  LOS  NIÑOS",
-    url: "https://sites.google.com/view/femsaestrategia53/inicio",
-    componente: "Habilidades para relacionarse",
-    tipo: 1,
-    tag: ["todas","amor"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia51 = {
-    nombre: "SEMBRANDO Y CULTIVANDO EL BUEN TRATO",
-    url: "https://sites.google.com/view/femsaestrategia54/inicio",
-    componente: "Habilidades pra relacionarse",
-    tipo: 1,
-    tag: ["todas","amor","cooperacion"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia52 = {
-    nombre: "A TERTULIAR EN FAMILIA",
-    url: "https://sites.google.com/view/femsaestrategia55/inicio",
-    componente: "Habilidades para relacionarse",
-    tipo: 1,
-    tag: ["todas","amor"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);function acortar(palabra){
-  if(palabra.length > 40){
-    return palabra.substring(0,35)+"...";
-  }else{
-    var arregloCadena = new Array();
-    arregloCadena = palabra.split('');
-    for (var i = arregloCadena.length; i < 43; i++) {
-      arregloCadena.push('&nbsp;');
-    }
-    return arregloCadena.join('');
-  }
-}
-    }
-  },
-  estrategia53 = {
-    nombre: "¡JUGANDO Y JUGANDO, MIS EMOCIONES VOY ENCONTRANDO!",
-    url: "https://sites.google.com/view/femsaestrategia57/inicio",
-    componente: "Autogestión",
-    tipo: 2,
-    tag: ["todas","autocontrol"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia54 = {
-    nombre: "LEEMOCIÓNATE",
-    url: "https://sites.google.com/view/femsaestrategia58/inicio",
-    componente: "Autogestión",
-    tipo: 2,
-    tag: ["todas","autocontrol","resiliencia","empatia"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia55 = {
-    nombre: "EL TREN DE LAS EMOCIONES",
-    url: "https://sites.google.com/view/femsaestrategia59/inicio",
-    componente: "Autogestión",
-    tipo: 2,
-    tag: ["todas","perserverancia"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia56 = {
-    nombre: "EL CAMINO DE LAS EMOCIONES",
-    url: "https://sites.google.com/view/femsaestrategia60/inicio",
-    componente: "Habilidades para relacionarse",
-    tipo: 1,
-    tag: ["todas","comunicacion","empatia"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
   estrategia57 = {
     nombre: "LA MÁGICA AVENTURA DE LA COMUNICACIÓN",
     url: "https://sites.google.com/view/femsaestrategia61/inicio",
@@ -580,72 +469,12 @@ var estrategias = [
       return ("Estrategia: "+this.nombre);
     }
   },
-  estrategia58 = {
-    nombre: "EL ARTE COMO ESTRATEGIA EDUCATIVA SOCIOEMOCIONAL EN LA FALTA DE ACOMPAÑAMIENTO DE LOS PADRES DE FAMILIA DE LOS NIÑOS DE PRIMERA INFANCIA",
-    url: "https://sites.google.com/view/femsaestrategia62/inicio",
-    componente: "Habilidades para relacionarse",
-    tipo: 1,
-    tag: ["todas","amor","comunicacion","cooperacion"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
   estrategia59 = {
     nombre: "EL ARTE COMO ESPEJO DEL YO: FORTALECIENDO EL AUTORRECONOCIMIENTO EN LA INFANCIA",
     url: "https://sites.google.com/view/femsaestrategia63/inicio",
     componente: "Conocimiento de sí mismo",
     tipo: 3,
     tag: ["todas","innovacion"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia60 = {
-    nombre: "EL JUEGO COMO MEDIDOR PARA AFIANZAR LAS HABILIDADES SOCIOEMOCIONALES EN LOS NIÑOS Y NIÑAS DE 7 A 10 AÑOS",
-    url: "https://sites.google.com/view/femsaestrategia64/inicio",
-    componente: "Habilidades para relacionarse",
-    tipo: 1,
-    tag: ["todas","amor"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia61 = {
-    nombre: " EL JUEGO PARA MAYOR DISFRUTE DE LA VIDA",
-    url: "https://sites.google.com/view/femsaestrategia65/inicio",
-    componente: "Habilidades para relacionarse",
-    tipo: 1,
-    tag: ["todas","carenciasafectivas"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia62 = {
-    nombre: "RE-CREANDO MIS VIVENCIAS",
-    url: "https://sites.google.com/view/femsaestrategia66/inicio",
-    componente: "conciencia de sí mismo",
-    tipo: 3,
-    tag: ["todas","autoaceptacion"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia63 = {
-    nombre: "COMPARTIENDO Y JUGANDO",
-    url: "https://sites.google.com/view/femsaestrategia63/inicio",
-    componente: "Autogestión",
-    tipo: 2,
-    tag: ["todas","atencionplena"],
-    cargar: function(){
-      return ("Estrategia: "+this.nombre);
-    }
-  },
-  estrategia64 = {
-    nombre: "RED ESCUELA – FAMILIA - CIUDAD",
-    url: "https://sites.google.com/view/femsaestrategia71/inicio",
-    componente: "Habilidades para relacionarse",
-    tipo: 1,
-    tag: ["todas","amor"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
