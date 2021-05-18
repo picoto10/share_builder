@@ -1,6 +1,6 @@
 var estrategias = [
   estrategia1 = {
-    nombre: "COMUNICACIÓN ASERTIVA: “FORTALECIENDO LOS LAZOS DE COMUNICACIÓN ENTRE LA ESCUELA Y LAS FAMILIAS” ",
+    nombre: "COMUNICACIÓN ASERTIVA:FORTALECIENDO LOS LAZOS DE COMUNICACIÓN ENTRE LA ESCUELA Y LAS FAMILIAS",
     url: "https://sites.google.com/view/femsaestrategia3/inicio",
     componente: "Habilidades para relacionarse",
     tipo: 1,
@@ -459,7 +459,7 @@ var estrategias = [
       return ("Estrategia: "+this.nombre);
     }
   },
-  estrategia57 = {
+  estrategia47 = {
     nombre: "LA MÁGICA AVENTURA DE LA COMUNICACIÓN",
     url: "https://sites.google.com/view/femsaestrategia61/inicio",
     componente: "Autogestión",
@@ -469,7 +469,7 @@ var estrategias = [
       return ("Estrategia: "+this.nombre);
     }
   },
-  estrategia59 = {
+  estrategia48 = {
     nombre: "EL ARTE COMO ESPEJO DEL YO: FORTALECIENDO EL AUTORRECONOCIMIENTO EN LA INFANCIA",
     url: "https://sites.google.com/view/femsaestrategia63/inicio",
     componente: "Conocimiento de sí mismo",
@@ -527,7 +527,7 @@ function aleatorias(){
   var arreglo = new Array(9);
   var count = 0;
   while(count < arreglo.length){
-    const random = Math.floor(Math.random()*63);
+    const random = Math.floor(Math.random()*48);
     if(arreglo.indexOf(random) == -1){
       arreglo[count] = random;
       count++;
