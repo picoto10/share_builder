@@ -184,7 +184,7 @@ var estrategias = [
     url: "https://sites.google.com/view/femsaestrategia20/inicio",
     componente: "Autogestión",
     tipo: 2,
-    tag: ["todas","autocontrol", "cooperacion", "paciencia"],
+    tag: ["ninguna"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
