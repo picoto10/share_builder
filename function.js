@@ -514,7 +514,7 @@ var estrategias = [
     url: "https://sites.google.com/view/femsaestrategia52/inicio",
     componente: "Habilidades para relacionarse",
     tipo: 1,
-    tag: ["todas","empatia"],
+    tag: ["ninguna"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
@@ -697,7 +697,7 @@ function aleatorias(){
   var arreglo = new Array(9);
   var count = 0;
   while(count < arreglo.length){
-    const random = Math.floor(Math.random()*64);
+    const random = Math.floor(Math.random()*63);
     if(arreglo.indexOf(random) == -1){
       arreglo[count] = random;
       count++;
