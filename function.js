@@ -684,7 +684,7 @@ var estrategias = [
     url: "https://sites.google.com/view/gr-1-sub1-ras21-2-estrategia01/inicio",
     componente: "Habilidades para relacionarse",
     tipo: 3,
-    tag: ["todas","comunicación","cooperacion"],
+    tag: ["todas","comunicacion","cooperacion"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
