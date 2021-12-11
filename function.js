@@ -648,6 +648,106 @@ var estrategias = [
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
+  },
+  estrategia66 = {
+    nombre: "LA CONTAMINACIÓN AMBIENTAL Y SU IMPACTO SOCIAL EN EL DESARROLLO SOSTENIBLE DEL PLANETA",
+    url: "https://sites.google.com/view/la-contaminacion-ambiental-y-s/crea",
+    componente: "Contaminación ambiental",
+    tipo: 3,
+    tag: ["todas","resiliencia","respecto"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia67 = {
+    nombre: "IESA EMPATIZA CON PLAYA BLANCA",
+    url: "https://sites.google.com/view/escribir-nombre-breve-de-la-es/experimenta",
+    componente: "Concervación recursos marinos",
+    tipo: 3,
+    tag: ["todas","respecto","tolerancia"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia68 = {
+    nombre: "ESPACIOS DE ENTRETENIMIENTO PARA UN APRENDIZAJE LÚDICO Y CON CALIDAD",
+    url: "https://sites.google.com/view/espacios-para-un-aprendizaje-l/experimenta",
+    componente: "Desarrollo de competencia básicas: lectura y matemáticas",
+    tipo: 3,
+    tag: ["todas","aceptacion","confianza"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia69 = {
+    nombre: "ME RELACIONO Y ME COMUNICO EXPRESANDO MIS EMOCIONES",
+    url: "https://sites.google.com/view/gr-1-sub1-ras21-2-estrategia01/inicio",
+    componente: "Habilidades para relacionarse",
+    tipo: 3,
+    tag: ["todas","comunicación","cooperacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia70 = {
+    nombre: "DESARROLLO DE LA EMPATÍA EN NIÑOS Y NIÑAS DE 4 A 6 AÑOS A TRAVÉS DE LAS HABILIDADES SOCIALES  Y LAS ACTIVIDADES RECTORAS E INTENCIONADAS",
+    url: "https://sites.google.com/view/gr-1-sub2-ras21-2-estrategia02/inicio",
+    componente: "Habilidades para relacionarse",
+    tipo: 3,
+    tag: ["todas","empatia","aceptacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia71 = {
+    nombre: "EL MALETÍN VIAJERO",
+    url: "https://sites.google.com/view/gr-2-sub1-ras21-2-estrategia04/inicio",
+    componente: "Autogestión",
+    tipo: 3,
+    tag: ["todas","autogestion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia72 = {
+    nombre: "ESCUCHA ACTIVA COMO MEDIO PARA LOGRAR UNA COMUNICACIÓN ASERTIVA",
+    url: "https://sites.google.com/view/gr-2-sub2-ras21-2-estrategia05/inicio",
+    componente: "Habilidades para relacionarse",
+    tipo: 3,
+    tag: ["todas","comunicacion","tolerancia"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia73 = {
+    nombre: "JUGANDO AL AJEDREZ INCENTIVAMOS NUESTRO POTENCIAL CREATIVO",
+    url: "https://sites.google.com/view/gr3sub4ras/estado",
+    componente: "Conocimiento de sí mismo",
+    tipo: 3,
+    tag: ["todas","aceptacion","individualidad"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia74 = {
+    nombre: "MOTIVA2 A RETORNAR",
+    url: "https://sites.google.com/view/la-motivacin/estado",
+    componente: "Conocimiento de sí mismo",
+    tipo: 3,
+    tag: ["todas","aceptacion","motivacion"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
+  },
+  estrategia75 = {
+    nombre: "APRENDIENDO A COMPARTIR Y DISFRUTAR DE LOS DEMAS",
+    url: "https://sites.google.com/view/gr-4-sub3-ras21-2-estrategia12/inicio",
+    componente: "Habilidades para relacionarse",
+    tipo: 3,
+    tag: ["todas","aceptacion","empatia"],
+    cargar: function(){
+      return ("Estrategia: "+this.nombre);
+    }
   }
 ];
 
@@ -697,7 +797,7 @@ function aleatorias(){
   var arreglo = new Array(9);
   var count = 0;
   while(count < arreglo.length){
-    const random = Math.floor(Math.random()*63);
+    const random = Math.floor(Math.random()*73);
     if(arreglo.indexOf(random) == -1){
       arreglo[count] = random;
       count++;
