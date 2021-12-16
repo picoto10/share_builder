@@ -654,7 +654,7 @@ var estrategias = [
     url: "https://sites.google.com/view/la-contaminacion-ambiental-y-s/crea",
     componente: "Contaminación ambiental",
     tipo: 3,
-    tag: ["todas","resiliencia","respecto"],
+    tag: ["todas","produccion"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
@@ -664,7 +664,7 @@ var estrategias = [
     url: "https://sites.google.com/view/escribir-nombre-breve-de-la-es/experimenta",
     componente: "Concervación recursos marinos",
     tipo: 3,
-    tag: ["todas","respecto","tolerancia"],
+    tag: ["todas","vida"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
@@ -674,7 +674,7 @@ var estrategias = [
     url: "https://sites.google.com/view/espacios-para-un-aprendizaje-l/experimenta",
     componente: "Desarrollo de competencia básicas: lectura y matemáticas",
     tipo: 3,
-    tag: ["todas","aceptacion","confianza"],
+    tag: ["todas","educacion"],
     cargar: function(){
       return ("Estrategia: "+this.nombre);
     }
